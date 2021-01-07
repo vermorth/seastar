@@ -21,6 +21,7 @@
 
 #define __user /* empty */  // for xfs includes, below
 
+#include <linux/falloc.h>
 #include <sys/syscall.h>
 #include <dirent.h>
 #include <linux/types.h> // for xfs, below
